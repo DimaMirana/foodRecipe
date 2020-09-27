@@ -1,0 +1,28 @@
+@import './../../App.scss';
+
+//https://i.ibb.co/h8KRThr/photo-1506368249639-73a05d6f6488-ixlib-rb-1-2.jpg
+// https://i.ibb.co/hXVqrwf/photo-1490818387583-1baba5e638af-ixlib-rb-1-2.jpg
+// https://i.ibb.co/GHQpXxW/photo-1466637574441-749b8f19452f-ixlib-rb-1-2.jpg
+// https://i.ibb.co/XLcMVGW/photo-1543362906-acfc16c67564-ixlib-rb-1-2.jpg
+// https://i.ibb.co/9p8f5vC/photo-1556929361-bb46fb0b4e20-ixlib-rb-1-2.jpg
+// https://i.ibb.co/MPv6b6z/photo-1517433367423-c7e5b0f35086-ixlib-rb-1-2.jpg
+
+.defaultHero,
+.otherHero {
+    min-height: calc(100vh - 66px);
+    background: url("../../assets/images/img.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    //background-color: $color-green;
+}
+
+.otherHero {
+    background-image: url("https://i.ibb.co/X384nng/nathan-dumlao-m6-DAg-Qyxj-Ao-unsplash.jpg") ;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}

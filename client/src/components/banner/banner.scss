@@ -1,0 +1,83 @@
+@import './../../App.scss';
+.bannerDefault,
+.bannerOther {
+    display: inline-block;
+    color: $color-white;
+    padding: 2rem 1rem;
+    margin-top: auto;
+    width: 50%;
+    margin-bottom: 10%;
+    margin-right: auto;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.bannerOther{
+        margin-right: 0;
+        text-align: center;
+}
+
+.bannerDefault h1 {
+    font-size: 2.5rem;
+}
+
+.bannerDefault div {
+    width: 10rem;
+    height: 5px;
+    margin: 1.7rem auto;
+}
+
+.bannerDefault p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.bannerOther h1 {
+    font-size: 2.5rem;
+}
+
+.bannerOther div {
+    width: 10rem;
+    height: 5px;
+    margin: 1.7rem auto;
+}
+
+.bannerOther p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 576px) {
+    .bannerDefault {
+        padding: 2rem 3rem;
+    }
+
+    .bannerDefault h1 {
+        font-size: 3rem;
+    }
+    .bannerOther {
+        padding: 2rem 3rem;
+    }
+
+    .bannerOther h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .bannerDefault {
+        padding: 2rem 6rem;
+    }
+
+    .bannerDefault h1 {
+        font-size: 4rem;
+    }
+    .bannerOther {
+        padding: 2rem 6rem;
+    }
+
+    .bannerOther h1 {
+        font-size: 4rem;
+    }
+}

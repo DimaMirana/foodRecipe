@@ -1,0 +1,15 @@
+@import './../../App.scss';
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: $color-light;
+    color: $color-black;
+    padding: 20px;
+    @include boxShadow;
+}
+
+.spacing{
+    margin: 10px;
+}

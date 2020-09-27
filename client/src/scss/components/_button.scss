@@ -1,0 +1,95 @@
+.btnDefault {
+    display: flex;
+    border-style: solid;
+    border-color: $color-white;
+    color: $color-white;
+    padding: 10px;
+    background-size: 200% 200%;
+    background-color: transparent;
+    border-radius: 20rem;
+    background-image: linear-gradient(to top, transparent 50%, transparent 50%);
+    color: 300ms ease,
+    border-color 300ms ease;
+    -moz-transition: background-position 300ms,
+    color 300ms ease,
+    border-color 300ms ease;
+    -ms-transition: background-position 300ms,
+    color 300ms ease,
+    border-color 300ms ease;
+    -o-transition: background-position 300ms,color 300ms ease,border-color 300ms ease;
+    transition: background-position 300ms,
+    color 300ms ease,
+    border-color 300ms ease;
+}
+
+.otherButton {
+    border-color: $color-green;
+    color: $color-green;
+    display: flex;
+    border-style: solid;
+    padding: 10px;
+    background-size: 200% 200%;
+    background-color: transparent;
+    border-radius: 20rem;
+    background-image: linear-gradient(to top, transparent 50%, transparent 50%);
+    color: 300ms ease,
+    border-color 300ms ease;
+    -moz-transition: background-position 300ms,
+    color 300ms ease,
+    border-color 300ms ease;
+    -ms-transition: background-position 300ms,
+    color 300ms ease,
+    border-color 300ms ease;
+    -o-transition: background-position 300ms,
+    color 300ms ease,
+    border-color 300ms ease;
+    transition: background-position 300ms,
+    color 300ms ease,
+    border-color 300ms ease;
+    cursor: pointer;
+}
+
+.btnDefault:hover{
+    color: $color-green;
+    border-color: $color-white;
+    background-image: linear-gradient(to top, $color-white 51%, transparent 50%);
+    background-position: 0 100%;
+    -webkit-transition: background-position 300ms,
+    color 300ms ease,
+    border-color 300ms ease;
+    -moz-transition: background-position 300ms,
+    color 300ms ease,
+    border-color 300ms ease;
+    -ms-transition: background-position 300ms,
+    color 300ms ease,
+    border-color 300ms ease;
+    -o-transition: background-position 300ms,
+    color 300ms ease,
+    border-color 300ms ease;
+    transition: background-position 300ms,
+    color 300ms ease,
+    border-color 300ms ease;
+}
+
+.otherButton:hover {
+    color: $color-white;
+    border-color: $color-white;
+    background-image: linear-gradient(to top, $color-green 51%, transparent 50%);
+    background-position: 0 100%;
+    -webkit-transition: background-position 300ms,
+        color 300ms ease,
+        border-color 300ms ease;
+    -moz-transition: background-position 300ms,
+        color 300ms ease,
+        border-color 300ms ease;
+    -ms-transition: background-position 300ms,
+        color 300ms ease,
+        border-color 300ms ease;
+    -o-transition: background-position 300ms,
+        color 300ms ease,
+        border-color 300ms ease;
+    transition: background-position 300ms,
+        color 300ms ease,
+        border-color 300ms ease;
+}
+
