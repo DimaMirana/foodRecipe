@@ -11,27 +11,28 @@ function Button({title,name}) {
       console.log(ingredient);
     }
   }
-  // const foo = (ingredient) => {
-  //   if(ingredient === true){
-  //     return (
-  //       <TextField
-  //         //className={Style.spacing}
-  //         id="outlined-basic"
-  //         fullWidth
-  //         required
-  //         label="Recipe Title"
-  //         placeholder="Your recipe title" 
-  //         variant="outlined"
-  //       />
-  //     );
-  //   }
+  const foo = (ingredient) => {
+    if(ingredient === true){
+      return (
+        <TextField
+          //className={Style.spacing}
+          id="outlined-basic"
+          fullWidth
+          required
+          label="Recipe Title"
+          placeholder="Your recipe title" 
+          variant="outlined"
+        />
+      );
+    }
     
-  // }
+  }
     return (
       <div
         onClick = {()=>{toggle()}}
         className={name}>
         {title}
+        {ingredient === true? foo() :null}
       </div>
     );
 }
