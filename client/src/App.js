@@ -1,6 +1,7 @@
 import React from 'react';
 import {Switch , Route} from 'react-router-dom';
 import './App.scss';
+import FooterComponent from './components/footer/FooterComponent';
 import About from './pages/about/AboutpageComponent';
 import Blog from './pages/blogpage/BlogpageComponent';
 import Contact from './pages/contact/ContactpageComponent';
@@ -21,6 +22,7 @@ function App() {
         <Route path = '/:type/:name' component = {Recipe}/>
         <Route component = {Error}/>
       </Switch>
+      <FooterComponent/>
     </>
   );
 }

@@ -23,6 +23,7 @@
 }
 
 .otherButton {
+    width: fit-content;
     border-color: $color-green;
     color: $color-green;
     display: flex;
@@ -72,6 +73,7 @@
 }
 
 .otherButton:hover {
+    width: fit-content;
     color: $color-white;
     border-color: $color-white;
     background-image: linear-gradient(to top, $color-green 51%, transparent 50%);

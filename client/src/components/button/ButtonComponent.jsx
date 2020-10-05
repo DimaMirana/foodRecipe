@@ -2,7 +2,7 @@ import { TextField } from '@material-ui/core';
 import React, {useState} from 'react';
 
 
-function Button({title,name}) {
+function Button({title,name,action}) {
   const [ingredient,setIngredient] = useState(false);
   const toggle = () => {
     if(name !== 'btnDefault'){
