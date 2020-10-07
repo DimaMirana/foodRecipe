@@ -1,1 +1,12 @@
 @import './../../App.scss';
+
+.headerWrapper{
+    font-size: 3rem;
+    margin-top: 2%;
+    /* width: 50%; */
+    margin-bottom: 2%;
+    margin-right: auto;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}

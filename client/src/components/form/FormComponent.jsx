@@ -53,10 +53,10 @@ function Form() {
       <>
         <Grid
           item
-          xs={6}
+          xs={8}
           className={classes.root}
         >
-          <FormGroup>
+          <FormGroup style = {{width:'100%'}}>
             <TextAreaComponent
               label="Recipe Title"
               placeholder="Your recipe title"

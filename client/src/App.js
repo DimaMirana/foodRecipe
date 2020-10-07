@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from "axios";
 import {Switch , Route} from 'react-router-dom';
 import './App.scss';
 import FooterComponent from './components/footer/FooterComponent';
@@ -18,7 +19,7 @@ function App() {
         <Route path = '/blogs' component = {Blog}/>
         <Route path = '/about' component = {About} />
         <Route path = '/contact' component = {Contact} />
-        <Route path = '/recipe' component = {CreateRecipe} />
+        <Route exact path = '/recipe' component = {CreateRecipe} />
         <Route path = '/:type/:name' component = {Recipe}/>
         <Route component = {Error}/>
       </Switch>
